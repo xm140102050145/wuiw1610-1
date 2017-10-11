@@ -1,0 +1,13 @@
+<% include header %>
+<body>
+<!--标题的字-->
+    <h1><%=message%></h1>
+
+<%#内容的字%>
+    <p><%=con%></p>
+    <p><%-con%></p>
+
+    <%if(keyword){%>
+    <span><%=keyword%></span>
+    <%}%>
+<% include footer %>
